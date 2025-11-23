@@ -19,7 +19,6 @@ const Customer = async () => {
         }
     })
 
-    console.log(customers)
     return (
         <Container>
             <main className='mt-9 mb-2'>

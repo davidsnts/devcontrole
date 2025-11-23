@@ -39,6 +39,7 @@ model Ticket{
   customer Customer? @relation(fields: [customerId], references: [id])
   userId String? @db.ObjectId
   User User? @relation(fields: [userId], references: [id])
+  status String
 }
 
 model User {
